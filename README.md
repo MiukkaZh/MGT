@@ -1,6 +1,6 @@
 # Learning Domain-Invariant Transformation for Speaker Verification
  
-By [Hanyi Zhang]<miukkazhang@gmail.com>.
+By Hanyi Zhang<miukkazhang@gmail.com>.
 
 **\[Todo\]**
 
