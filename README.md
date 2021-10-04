@@ -7,7 +7,7 @@ By Hanyi Zhang (<miukkazhang@gmail.com>), Longbiao Wang, Kong Aik Lee, Meng Liu,
 - [ ] Release the Meta Generalized Transformation (MGT) code.
 
 ## Introduction
-This pytorch code repository for _Learning Domain-Invariant Transformation for Speaker Verification_. We will release Cross-Genre trial, Cross-Dataset trial, GCG benchmark, and Meta Generalized Transformation (MGT) code.
+This repository contains the PyTorch implementation for the paper _Learning Domain-Invariant Transformation for Speaker Verification_. We will release Cross-Genre trial, Cross-Dataset trial, GCG benchmark, and Meta Generalized Transformation (MGT) code.
 
 ## Requirements
 - Python >= 3.6
