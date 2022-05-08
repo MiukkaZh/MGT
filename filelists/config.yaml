@@ -1,0 +1,12 @@
+cnceleb:
+  train_audio_path:  # The path of CN-Celeb 1, The path of CN-Celeb 2-part 1, The path of CN-Celeb 2-part 2.
+  train_feat_path:   # The path to save the features of the train file.
+  test_audio_path:   # The path to source test data of CN-Celeb.
+  test_feat_path:    # The path to save the features of the test file.
+  feat_type: logfbank
+  rate: 16000
+  win_len: 0.025
+  win_shift: 0.01
+  normalize: true
+  delta: false
+  filter_fbank: 40
