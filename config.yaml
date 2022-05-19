@@ -1,0 +1,39 @@
+base:
+  gpu: 1
+  seed: 200
+  max_epoch: 301
+
+data:
+  num_win_size: 200
+  cnceleb_database: filelists/Cnceleb/cnceleb_train.json
+  g1: live_broadcast,vlog,speech
+  g2: entertainment,interview,play
+  g3: drama,movie
+  g4: singing,recitation
+
+model:
+  embedding_size: 256
+  scale: 30
+  margin: 0.2
+
+meta:
+  lr: [0.05, 0.001]
+  lr_decay_step: 10
+  meta_val_beta: 0.001
+
+train:
+  lr: [0.05, 0.001]
+  lr_decay_step: 20
+  save_step: 5
+  test_step: 5
+  
+  cnceleb_train_task: trials/cnceleb/train_task/new_split_cnceleb_trails.txt
+  cnceleb_train_files: trials/cnceleb/train_task/new_split_cnceleb_files.txt
+  cnceleb_test_path: # Extracted test set features, such as D:/DataSet/cnceleb/test_logfbank_nfilt40
+  
+test:
+  gpu: 1
+  cnceleb_test_files: trials/cnceleb/cnceleb_files.txt
+  cnceleb_test_path: # Extracted test set features, such as D:/DataSet/cnceleb/test_logfbank_nfilt40
+  cnceleb_meta: trials/cnceleb/meta_task/trials
+
