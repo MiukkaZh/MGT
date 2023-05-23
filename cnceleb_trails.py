@@ -4,8 +4,8 @@ import math
 import random
 
 def train_task():
-    f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
-    # f = open('trials/cnceleb/trials.lst', 'r')
+    # f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
+    f = open('trials/cnceleb/trials.lst', 'r')
     cnceleb_trails = f.read()
     f.close()
 
@@ -25,8 +25,8 @@ def train_task():
     f.close()
 
 def meta_task():
-    f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
-    # f = open('trials/cnceleb/trials.lst', 'r')
+    # f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
+    f = open('trials/cnceleb/trials.lst', 'r')
     cnceleb_trails = f.read()
     f.close()
 
@@ -48,8 +48,8 @@ def meta_task():
         f.close()
 
 def file_list():
-    f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
-    # f = open('trials/cnceleb/trials.lst', 'r')
+    # f = open('trials/cnceleb/fix_cnceleb_trials.txt', 'r')
+    f = open('trials/cnceleb/trials.lst', 'r')
     cnceleb_trails = f.read()
     f.close()
 
