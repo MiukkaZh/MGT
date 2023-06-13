@@ -40,7 +40,7 @@ python filelists/database_gen.py
 python meta_train.py --n_folder 0 --generalization gmlp --dataset cnceleb --domain g1,g2,g3,g4 --loss_type metaloss --n_shot 1 --n_query 2 --nb_class_train 100
 ```
 ### Evaluation
-- Run `EER.py` to test the trained Meta Generalized Transformation (MGT) model.
+- Run `EER.py` to test the trained Meta Generalized Transformation (MGT) model. A [MGT model with gmlp architecture](https://drive.google.com/file/d/1-9X-nmgKQE3OO_Z85ygWn079aok8izIz/view?usp=sharing), which is trained on CN-Celeb, has been uploaded on CN-Celeb for reference.
 ```
 python EER.py --model_type meta --data_type cnceleb --generalization gmlp --loss_type metaloss --dataset cnceleb --domain g1,g2,g3,g4 --veri_test_dir trials/cnceleb/fix_cnceleb_trials.txt --n_folder 15 --cp_num 0
 ```
